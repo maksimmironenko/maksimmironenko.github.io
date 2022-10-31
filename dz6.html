@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Задание 5</title>
+    <meta charset="utf-8">
+    <script src="https://maksimmironenko.github.io/JS2.js" defer></script>
+    <style>
+      .ras{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .pol{
+        text-align: center;
+      }
+      #my-button{
+          background-color: rgb(158, 237, 102);
+      }
+      #result1{
+          margin-top: 10px;
+      }
+      #ras{
+        display: flex;
+        justify-content: center;
+      }
+      .num{
+        color: rgb(0, 0, 0);
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="num">Задание 5</p>
+    <form>
+      <p class="pol">Введите кол-во единиц товара: <input id="kol1" type="text"></p>
+      <p class="pol">Введите цену за одну единицу товара: <input id="price" type="text"></p>
+      <div id="ras">
+        <button type="button" id="my-button">Результат</button>
+      </div>
+    </form>
+    <div class="pol" id="result1"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p class="num">Задание 6</p>
+    <form>
+      <p class="ras">Введите кол-во единиц товара: <input id="kol" type="text"></p>
+      <div class="ras">
+        <select name="select">
+          <option value="1">Товар 1</option>
+          <option value="2">Товар 2</option>
+          <option value="3">Товар 3</option>
+        </select>
+      </div>
+
+      <div class="ras" id="radio">
+        <label><input type="radio" name="radio" value="1">Опция 1</label>
+        <label><input type="radio" name="radio" value="2">Опция 2</label>
+      </div>
+
+      <div class="ras" id="boxs">
+        <label><input type="checkbox" name="prop" value="1"> Свойство</label>
+      </div>
+    </form>
+    <div class="ras" id="result"></div>
+
+
+  </body>
+</html>
