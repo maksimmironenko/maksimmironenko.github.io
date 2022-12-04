@@ -56,7 +56,7 @@ $(document).ready(function () {
                 message: localStorage.getItem("mes"),
                 name: localStorage.getItem("name")
             },
-            form: "aXHxW8DxN"
+            form:"tQk1Q6yLU"
         }).then(function () {
             alert("Ваше сообщение успешно отправлено!");
         }).catch(function () {
